@@ -1,4 +1,11 @@
-
+/**
+ * @file main.cpp
+ * @author Jackson Horton
+ * @date 2022-10-25
+ * @brief Main function; facilitates class testing
+ * 
+ * In the main file, multiple Employee, Officer, and Supervisor objects are initialized. Then, their member funcitons are tested.
+ */
 #include <iostream>
 #include "Employee.h"
 #include "Supervisor.h"
