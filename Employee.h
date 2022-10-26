@@ -58,9 +58,9 @@ class Employee {
   void anniversary();
 
 /**
- * Constructor
+ * DefaultConstructor
  *
- * @post Employee is created
+ * @post empty Employee is created
  * 
  */
   Employee();

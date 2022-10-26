@@ -1,3 +1,11 @@
+/**
+ * @file Officer.cpp
+ * @author Jackson Horton
+ * @date 2022-10-25
+ * @brief Officer implementation
+ * 
+ * Officer is a subclass of Employee; alsoholds the officer's evilness, which positively affects his pay.
+ */
 #include "Officer.h"
 #include <iostream>
 
