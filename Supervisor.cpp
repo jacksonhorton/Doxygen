@@ -1,3 +1,12 @@
+/**
+ * @file Supervisor.cpp
+ * @author Jackson Horton
+ * @date 2022-10-25
+ * @brief Implementation of Supervisor class
+ * 
+ * Subclass of employee. Implements/overrides some Employee functions to be specific to the supervisor.
+ */
+
 #include "Supervisor.h"
 #include <iostream>
 
