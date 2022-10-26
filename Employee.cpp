@@ -1,3 +1,11 @@
+/**
+ * @file Employee.cpp
+ * @author Jackson Horton
+ * @date 2022-10-25
+ * @brief Implementation of Employee
+ * 
+ * Implements all the functionality of the Employee class. Some functionality is overriden by subclasses.
+ */
 #include "Employee.h"
 #include <iostream>
 
@@ -30,4 +38,3 @@ void Employee::anniversary() {
 double Employee::calculatePay() {
   return hourlyRate * hoursWorked;
 }
-
