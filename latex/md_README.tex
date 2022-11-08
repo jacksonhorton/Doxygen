@@ -1,0 +1,15 @@
+This repo uses an example class to demonstrate Doxygen and how it helps programmers document our projects using the comments already in our code. This makes documenting our projects faster and more consistent. This is because we only have to document once and don\textquotesingle{}t risk our comments getting lost in translation between viewing the code and documenting it seperately (because the documentation is generates straight from the code).
+
+\section*{\hyperlink{classEmployee}{Employee} Class}
+
+The \hyperlink{classEmployee}{Employee}, \hyperlink{classOfficer}{Officer}, and \hyperlink{classSupervisor}{Supervisor} classes is used to store different employees as objects using code. \hyperlink{classEmployee}{Employee} is the base class, or superclass; \hyperlink{classOfficer}{Officer} and \hyperlink{classSupervisor}{Supervisor} are subclasses of \hyperlink{classEmployee}{Employee}.
+
+
+
+\section*{\hyperlink{classOfficer}{Officer} Class}
+
+The \hyperlink{classOfficer}{Officer} class is a subclass of the \hyperlink{classEmployee}{Employee} class. \hyperlink{classOfficer}{Officer} overrides \hyperlink{classEmployee_a01c2c44e15434237db28832f6972e960}{Employee\+::calculate\+Pay()} so the object can properly represent an officer. It has an extra data member, evilness, which is used in the overrided function calculate\+Pay().
+
+\section*{\hyperlink{classSupervisor}{Supervisor} Class}
+
+The \hyperlink{classSupervisor}{Supervisor} class is also a subclass of \hyperlink{classEmployee}{Employee}. It contains an extra data member for tracking the number of people a supervisor object supervises over. That data member is also used in its overrid of \hyperlink{classEmployee_a01c2c44e15434237db28832f6972e960}{Employee\+::calculate\+Pay()}. 
